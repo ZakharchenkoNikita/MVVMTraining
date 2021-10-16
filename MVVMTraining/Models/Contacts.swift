@@ -11,6 +11,10 @@ struct Contacts {
     let name: String
     let surname: String
     let phoneNumber: String
+    
+    var fullName: String {
+        "\(name) \(surname)"
+    }
 }
 
 extension Contacts {

@@ -17,7 +17,8 @@
 		1186FFA5271AED3000E44F93 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFA4271AED3000E44F93 /* ViewModel.swift */; };
 		1186FFA9271AEE0000E44F93 /* TableViewViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFA8271AEE0000E44F93 /* TableViewViewModelProtocol.swift */; };
 		1186FFAB271AEE8000E44F93 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFAA271AEE8000E44F93 /* Contacts.swift */; };
-		1186FFAD271AF19700E44F93 /* TableCellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFAC271AF19700E44F93 /* TableCellViewModelProtocol.swift */; };
+		1186FFAD271AF19700E44F93 /* TableViewCellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFAC271AF19700E44F93 /* TableViewCellViewModelProtocol.swift */; };
+		1186FFAF271AF34900E44F93 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFAE271AF34900E44F93 /* TableViewCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +34,8 @@
 		1186FFA4271AED3000E44F93 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		1186FFA8271AEE0000E44F93 /* TableViewViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewModelProtocol.swift; sourceTree = "<group>"; };
 		1186FFAA271AEE8000E44F93 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
-		1186FFAC271AF19700E44F93 /* TableCellViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellViewModelProtocol.swift; sourceTree = "<group>"; };
+		1186FFAC271AF19700E44F93 /* TableViewCellViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModelProtocol.swift; sourceTree = "<group>"; };
+		1186FFAE271AF34900E44F93 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				1186FFA4271AED3000E44F93 /* ViewModel.swift */,
+				1186FFAE271AF34900E44F93 /* TableViewCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -133,7 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				1186FFA8271AEE0000E44F93 /* TableViewViewModelProtocol.swift */,
-				1186FFAC271AF19700E44F93 /* TableCellViewModelProtocol.swift */,
+				1186FFAC271AF19700E44F93 /* TableViewCellViewModelProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -211,10 +214,11 @@
 			files = (
 				1186FFA5271AED3000E44F93 /* ViewModel.swift in Sources */,
 				1186FFA3271AEB8D00E44F93 /* ContactTableViewCell.swift in Sources */,
-				1186FFAD271AF19700E44F93 /* TableCellViewModelProtocol.swift in Sources */,
+				1186FFAD271AF19700E44F93 /* TableViewCellViewModelProtocol.swift in Sources */,
 				1186FFA9271AEE0000E44F93 /* TableViewViewModelProtocol.swift in Sources */,
 				1186FF88271AD44D00E44F93 /* AppDelegate.swift in Sources */,
 				1186FF8A271AD44D00E44F93 /* SceneDelegate.swift in Sources */,
+				1186FFAF271AF34900E44F93 /* TableViewCellViewModel.swift in Sources */,
 				1186FFA1271AEB7200E44F93 /* ContactTableViewController.swift in Sources */,
 				1186FFAB271AEE8000E44F93 /* Contacts.swift in Sources */,
 			);

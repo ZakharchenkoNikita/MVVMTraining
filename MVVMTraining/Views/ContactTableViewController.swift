@@ -18,16 +18,19 @@ class ContactTableViewController: UITableViewController {
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        viewModel?.numberOfRows ?? 0
+        viewModel?.numberOfRows() ?? 0
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "contactCell", for: indexPath) as! ContactTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "contactCell", for: indexPath) as? ContactTableViewCell
+        
+        guard let tableViewCell = cell, let viewModel = viewModel else { return UITableViewCell() }
+        
+        let cellViewModel = viewModel.cellViewModel(forIndexPath: indexPath)
+        
+        tableViewCell.viewModel = cellViewModel
 
-        cell.fullNameLabel.text = "Test"
-        cell.phoneNumberLabale.text = "Test"
-
-        return cell
+        return tableViewCell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

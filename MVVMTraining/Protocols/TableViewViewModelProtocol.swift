@@ -8,6 +8,6 @@
 import Foundation
 
 protocol TableViewViewModelProtocol {
-    var numberOfRows: Int { get }
-    
+    func numberOfRows() -> Int
+    func cellViewModel(forIndexPath indexPath: IndexPath) -> TableViewCellViewModelProtocol?
 }
