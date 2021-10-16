@@ -7,6 +7,11 @@
 
 import Foundation
 
-class ViewModel {
+class ViewModel: TableViewViewModelProtocol {
     
+    var contacts = Contacts.getContacts()
+    
+    var numberOfRows: Int {
+        contacts.count
+    }
 }
