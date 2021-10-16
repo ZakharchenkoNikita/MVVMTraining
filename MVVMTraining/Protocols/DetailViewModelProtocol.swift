@@ -8,5 +8,6 @@
 import Foundation
 
 protocol DetailViewModelProtocol {
-    
+    var fullName: String { get }
+    var phoneNumber: String { get }
 }

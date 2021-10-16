@@ -9,4 +9,17 @@ import Foundation
 
 class DetailViewModel: DetailViewModelProtocol {
     
+    private var contact: Contacts
+    
+    var fullName: String {
+        contact.fullName
+    }
+    
+    var phoneNumber: String {
+        contact.phoneNumber
+    }
+    
+    init(contact: Contacts) {
+        self.contact = contact
+    }
 }
