@@ -20,6 +20,8 @@
 		1186FFAD271AF19700E44F93 /* TableViewCellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFAC271AF19700E44F93 /* TableViewCellViewModelProtocol.swift */; };
 		1186FFAF271AF34900E44F93 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFAE271AF34900E44F93 /* TableViewCellViewModel.swift */; };
 		1186FFB1271AF8F900E44F93 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFB0271AF8F900E44F93 /* DetailViewController.swift */; };
+		1186FFB3271AF98000E44F93 /* DetailViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFB2271AF98000E44F93 /* DetailViewModelProtocol.swift */; };
+		1186FFB5271AF99F00E44F93 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFB4271AF99F00E44F93 /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		1186FFAC271AF19700E44F93 /* TableViewCellViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModelProtocol.swift; sourceTree = "<group>"; };
 		1186FFAE271AF34900E44F93 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
 		1186FFB0271AF8F900E44F93 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1186FFB2271AF98000E44F93 /* DetailViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelProtocol.swift; sourceTree = "<group>"; };
+		1186FFB4271AF99F00E44F93 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 			children = (
 				1186FFA4271AED3000E44F93 /* ViewModel.swift */,
 				1186FFAE271AF34900E44F93 /* TableViewCellViewModel.swift */,
+				1186FFB4271AF99F00E44F93 /* DetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			children = (
 				1186FFA8271AEE0000E44F93 /* TableViewViewModelProtocol.swift */,
 				1186FFAC271AF19700E44F93 /* TableViewCellViewModelProtocol.swift */,
+				1186FFB2271AF98000E44F93 /* DetailViewModelProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -219,8 +225,10 @@
 				1186FFA3271AEB8D00E44F93 /* ContactTableViewCell.swift in Sources */,
 				1186FFAD271AF19700E44F93 /* TableViewCellViewModelProtocol.swift in Sources */,
 				1186FFA9271AEE0000E44F93 /* TableViewViewModelProtocol.swift in Sources */,
+				1186FFB3271AF98000E44F93 /* DetailViewModelProtocol.swift in Sources */,
 				1186FF88271AD44D00E44F93 /* AppDelegate.swift in Sources */,
 				1186FF8A271AD44D00E44F93 /* SceneDelegate.swift in Sources */,
+				1186FFB5271AF99F00E44F93 /* DetailViewModel.swift in Sources */,
 				1186FFAF271AF34900E44F93 /* TableViewCellViewModel.swift in Sources */,
 				1186FFB1271AF8F900E44F93 /* DetailViewController.swift in Sources */,
 				1186FFA1271AEB7200E44F93 /* ContactTableViewController.swift in Sources */,

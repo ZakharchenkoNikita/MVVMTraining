@@ -9,5 +9,4 @@ import Foundation
 
 protocol TableViewCellViewModelProtocol: AnyObject {
     var fullName: String { get }
-    var phonenumber: String { get }
 }
