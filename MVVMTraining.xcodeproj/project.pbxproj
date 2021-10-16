@@ -78,7 +78,6 @@
 				1186FF9E271AEB4300E44F93 /* ViewModels */,
 				1186FF9D271AEB3A00E44F93 /* Views */,
 				1186FFA7271AEDC600E44F93 /* Protocols */,
-				1186FFA6271AED4B00E44F93 /* Managers */,
 				1186FF9B271AEA6A00E44F93 /* Support files */,
 				1186FF9C271AEA7B00E44F93 /* Storyboards */,
 			);
@@ -131,13 +130,6 @@
 				1186FFAA271AEE8000E44F93 /* Contacts.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		1186FFA6271AED4B00E44F93 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Managers;
 			sourceTree = "<group>";
 		};
 		1186FFA7271AEDC600E44F93 /* Protocols */ = {

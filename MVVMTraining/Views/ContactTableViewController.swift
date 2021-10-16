@@ -16,7 +16,6 @@ class ContactTableViewController: UITableViewController {
         viewModel = ViewModel()
     }
 
-    // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         viewModel?.numberOfRows() ?? 0
     }

@@ -8,6 +8,7 @@
 import UIKit
 
 class ContactTableViewCell: UITableViewCell {
+    
     @IBOutlet weak var fullNameLabel: UILabel!
     
     weak var viewModel: TableViewCellViewModelProtocol? {
