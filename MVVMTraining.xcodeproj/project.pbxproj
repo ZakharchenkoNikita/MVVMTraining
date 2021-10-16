@@ -19,6 +19,7 @@
 		1186FFAB271AEE8000E44F93 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFAA271AEE8000E44F93 /* Contacts.swift */; };
 		1186FFAD271AF19700E44F93 /* TableViewCellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFAC271AF19700E44F93 /* TableViewCellViewModelProtocol.swift */; };
 		1186FFAF271AF34900E44F93 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFAE271AF34900E44F93 /* TableViewCellViewModel.swift */; };
+		1186FFB1271AF8F900E44F93 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186FFB0271AF8F900E44F93 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		1186FFAA271AEE8000E44F93 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		1186FFAC271AF19700E44F93 /* TableViewCellViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModelProtocol.swift; sourceTree = "<group>"; };
 		1186FFAE271AF34900E44F93 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
+		1186FFB0271AF8F900E44F93 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				1186FFA0271AEB7200E44F93 /* ContactTableViewController.swift */,
 				1186FFA2271AEB8D00E44F93 /* ContactTableViewCell.swift */,
+				1186FFB0271AF8F900E44F93 /* DetailViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				1186FF88271AD44D00E44F93 /* AppDelegate.swift in Sources */,
 				1186FF8A271AD44D00E44F93 /* SceneDelegate.swift in Sources */,
 				1186FFAF271AF34900E44F93 /* TableViewCellViewModel.swift in Sources */,
+				1186FFB1271AF8F900E44F93 /* DetailViewController.swift in Sources */,
 				1186FFA1271AEB7200E44F93 /* ContactTableViewController.swift in Sources */,
 				1186FFAB271AEE8000E44F93 /* Contacts.swift in Sources */,
 			);
